@@ -1,4 +1,6 @@
-This directory contains the data sets and k-component identification software used to implement the algorithms and generate the results described in the publication.
+This directory contains the data sets and k-component identification
+software used to implement the algorithms and generate the results
+described in the publication.
 
 Fast determination of structurally cohesive subgroups in large networks
 Robert S. Sinkovits, James Moody, B. Tolga Oztan and Douglas R. White
