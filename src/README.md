@@ -1,4 +1,4 @@
-#H2 k-components identification software
+# H2 k-components identification software
 
 This directory contains the source code for generating the largest 1-,
 2-, 3-, 4- and 5-components of a graph.
@@ -21,25 +21,25 @@ This directory contains the source code for generating the largest 1-,
 
 Source code files are described below
 
-#H3 functions.R
+# H3 functions.R
 
 Collection of R functions that are used by multiple scripts
 
-#H3 get_largest_bi.R
+# H3 get_largest_bi.R
 
 For convenience, script takes no command line arguments but does
 require that the starting graph be named "start.net". Will produce two
 new files named "largest_connected.net" and "largest_biconnected.net".
 
-#H3 get_largest_tri.R
+# H3 get_largest_tri.R
 
 Generates "largest_triconnected.net" starting from "largest_biconnected.net".
 
-#H3 get_largest_quad.R
+# H3 get_largest_quad.R
 
 Generates "largest_quadconnected.net" starting from "largest_triconnected.net".
 
-#H3 get_largest_quint.R
+# H3 get_largest_quint.R
 
 Generates "largest_quintconnected.net" starting from
 "largest_quadconnected.net". Also writes out a file named
@@ -47,7 +47,7 @@ Generates "largest_quintconnected.net" starting from
 for completing search for higher-order k-components using the standard
 max-flow algorithms.
 
-#H3 unique_candidates.pl
+# H3 unique_candidates.pl
 
 Script used to remove duplicates of the small components generated
 during the search for the largest k-components. To use, execute the
@@ -59,7 +59,7 @@ following sequence of commands in the directory containg the results
 
 * ./unique_candidates.pl digests
 
-#H2 Additional notes
+# H2 Additional notes
 
 The "get_largest_*.R" scripts also generate smaller components that
 were trimmed from the primary graph during the graph reduction phases
