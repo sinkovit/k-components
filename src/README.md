@@ -59,7 +59,7 @@ following sequence of commands in the directory containg the results
 
 * ./unique_candidates.pl digests
 
-# H2 Additional notes
+## Additional notes
 
 The "get_largest_*.R" scripts also generate smaller components that
 were trimmed from the primary graph during the graph reduction phases
